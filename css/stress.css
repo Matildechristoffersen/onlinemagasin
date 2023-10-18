@@ -1,0 +1,290 @@
+/*body*/
+
+body {
+    margin: 0;
+    font-family: 'Bodoni 72 Smallcaps', serif;
+  }
+
+  /*header*/
+
+  .header {
+    background-color: #f1e7de;
+    padding: 15px;
+    text-align: center;
+  }
+
+  /*navigation*/
+  nav {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+  background-color: #f1e7de;
+  }
+
+  .nav a:hover {
+    color: rgb(19, 34, 205);
+  }
+  
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Bodoni 72 Smallcaps', serif; 
+  }
+
+  /*logo*/
+
+  #logo {
+    max-width: 90px; 
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 5px;
+    align-items: center;
+    position: absolute;
+  }
+  
+  #søg {
+    position: absolute;
+    top: 20px; 
+    right: 40px; 
+    max-width: 30px;
+  }
+
+  /*main artikel 1*/
+
+  main {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f0ea;
+  }
+  
+  /*baggrundsbillede*/
+
+  .image-container {
+    position: relative;
+  }
+
+  /*tekst over baggrundsbillede*/
+
+  .image-text {
+    position: absolute;
+    top: 15%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: white; 
+    font-family: 'Bodoni 72 Smallcaps', serif; 
+    font-size: 24px;
+    z-index: 2;
+    margin-top: 350px;
+    margin-bottom: 50px;
+  }
+  
+  .image-text h1 {
+    margin: 0;
+  }
+  
+  /*billeder*/
+  main img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .billeder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; 
+    position: relative;
+    z-index: 1;
+    margin-top: 400px;
+    transition: transform 0.3s;
+  }
+
+  .billeder a:hover {
+    transform: scale(1.1)
+  }
+
+  .billeder img {
+    max-width: 200px; 
+    margin: 0 10px; 
+  }
+
+  #blomster {
+    border: 6px solid rgb(255, 255, 255); 
+    box-sizing: border-box; 
+  }
+
+  #kaffe {
+    border: 6px solid rgb(255, 255, 255); 
+    box-sizing: border-box; 
+  }
+
+  #skov {
+    border: 6px solid rgb(255, 255, 255); 
+    box-sizing: border-box;
+  }
+
+
+  /*main artikel 2*/
+
+  /*tekst*/
+  .alt_tekst {
+    font-family:'Bodoni 72 Smallcaps', serif ;
+    margin-left: 5%;
+    line-height: 20px;
+  }
+  .overskrift1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  /*grafer/billeder*/
+  .grafer {
+    position: absolute;
+    top: 90%; 
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.grafer img {
+    display: block;
+    margin-bottom: 10px; 
+    width: 600px; 
+    height: auto;
+}
+  
+  
+  /*main artikel 3*/
+
+  /*tekst*/
+  .teknik_overskrift {
+    font-family:'Bodoni 72 Smallcaps', serif ;
+    margin-left: 5%;
+  }
+
+  .teknik_tekst {
+    font-family:'Bodoni 72 Smallcaps', serif ;
+    margin-left: 5%;
+    line-height: 30px;
+  }
+
+  .undermenu {
+    font-family:'Bodoni 72 Smallcaps', serif ;
+    font-weight:bolder;
+    margin-left: 5%;
+  }
+
+  /*grid boks med billeder*/
+
+  /*grid boks*/
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2,7cm); 
+    grid-template-rows: repeat(3,7cm); 
+    gap: 40px; 
+    height: 100vh; 
+    margin-left: 59%;
+    margin-top: -1200px;
+    margin-bottom: 35%;
+  }
+  
+  /*billeder*/
+  .item {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    margin: 5px; 
+  }
+  
+  .item img {
+    max-width: 100%;
+    max-height: 100%;
+  }  
+
+
+  /*main artikel 4*/
+
+  /*billede*/
+  .bog {
+    max-width: 90%;
+    width: auto;
+    display: block;
+    margin: 20px auto; 
+    margin-top: 0;
+  }
+
+  /*tekst*/
+
+  .pårørende {
+    font-family:'Bodoni 72 Smallcaps', serif ;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .pårørende_overskrift {
+    font-family:'Bodoni 72 Smallcaps', serif ;
+    text-align: center;
+  }
+
+  /*spørgsmål boks*/
+
+  .spørgsmål { 
+    font-family:'Bodoni 72 Smallcaps', serif ;
+    border: 2px solid #000000; 
+    padding: 5px; 
+    margin: 5px; 
+    width: 550px;
+    margin: 0 auto;
+    line-height: 30px;
+    list-style: none;
+  }
+
+  /*Om os*/
+
+  .om_os {
+    font-family:'Bodoni 72 Smallcaps', serif ;
+    color: #000000;
+    margin-bottom: 350px;
+    text-align: center;
+  }
+
+
+   /*footer*/
+   footer {
+    color: #f1e7de;
+    text-align: center;
+  }
+  
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-menu a:hover {
+    color: rgb(19, 34, 205);
+  }
+
+  /*footer ikoner*/
+  .ikoner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 10px; 
+  }
+
+  .ikoner img {
+    max-width: 20px;
+    margin: 0 10px;
+  }
+
+
+  
